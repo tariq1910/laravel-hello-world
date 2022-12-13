@@ -24,7 +24,7 @@ RUN docker-php-ext-install zip
 RUN docker-php-ext-install pdo_mysql mbstring gd
 
 WORKDIR "/laravel"
-
+#COPY /composer.json .
 
 COPY . .
 
