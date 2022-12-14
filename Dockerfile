@@ -1,6 +1,6 @@
 FROM deltasquare4/docker-php-base:latest
 
-EXPOSE 80
+EXPOSE 8080
 
 MAINTAINER Rakshit Menpara <rakshit@improwised.com>
 
