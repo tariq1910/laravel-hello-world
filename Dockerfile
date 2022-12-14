@@ -1,5 +1,7 @@
 FROM deltasquare4/docker-php-base:latest
 
+EXPOSE 8080
+
 MAINTAINER Rakshit Menpara <rakshit@improwised.com>
 
 # Copy Composer
