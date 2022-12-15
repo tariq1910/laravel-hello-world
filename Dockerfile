@@ -15,6 +15,8 @@ RUN composer install \
 # Copy app
 COPY ./app /var/www
 
+COPY .env /var/www/.env
+
 # Add build dependencies to compile drafter
 RUN set -ex \
   && composer dump-autoload --optimize \
